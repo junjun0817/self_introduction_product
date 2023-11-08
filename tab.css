@@ -1,0 +1,182 @@
+body {
+  /* background: radial-gradient(ellipse at center, rgba(255,255,255,0) 40%,rgba(255,255,255,0.5) 60%,rgba(255,255,255,1) 100%),url(images/0dc002fb57851000dcb7b11428ef6a1e.jpg); */
+  background-image: url(images/carbon022-768x576.jpg);
+  background-size: 20%;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.unit_title {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  padding-bottom: 25px;
+  margin-top: 30px;
+}
+
+.cp_common {
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 20px 0 0 0;
+  /* margin-bottom: 190px; */
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 150px;
+  color: #ffffff;
+}
+
+.title:hover {
+  color: blue;
+  transition: 0.5s;
+}
+
+.profile {
+  color: #ffffff;
+  font-size: 20px;
+  background-image: url(images/kuchikomi819_TP_V.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 780px;
+  width: 1200px;
+  background-size: 100%;
+  margin: 0 auto;
+  margin-bottom: 130px;
+  /* magin bottom など */
+}
+
+/* .unit_title_01 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px; */
+  /* padding-bottom: 300px; */
+
+
+/* .unit_title_02 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  color: #ffffff;
+}
+
+.unit_title_03 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  color: #ffffff;
+} */
+
+.my_name {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 88px;
+  margin-right: 470px;
+  margin-top: 0px;
+  padding-top: 120px;
+}
+
+.self_introduction_item {
+  margin-top: 60px;
+  color: black;
+  font-size: 34px;
+  margin-left: 95px;
+}
+
+.item{
+  margin-bottom: 10px;
+}
+
+.tab {
+    max-width: 1200px;
+    max-height: 740px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    /* margin-top: 270px; */
+  }
+  
+  /* タブメニュー */
+.tab_menu {
+  display: flex;
+  align-items: flex-end; /* メニューを下揃え */
+  justify-content: center;
+  min-height: 50px; /* メニュー切替時にタブがズレないように */
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  white-space: nowrap;
+}
+
+.tab_menu_item {
+  list-style: none;
+  width: 200px;
+  padding: 20px 55px; /* メニューに高さを付ける */
+  text-align: center;
+  margin-right: 6px;
+  background-color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+  transition: all .3s; /* アニメーション */
+}
+
+.tab_menu_item:last-of-type {
+  margin-right: 0px;
+}
+
+/* is-activeがついている時のスタイル */
+.tab_menu_item.is_active {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  padding: 30px 55px;
+}
+
+/* タブパネル */
+.tab_panel {
+  width: 100%;
+  font-size: 20px;
+}
+
+.tab_panel_box {
+  min-height: 620px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background: radial-gradient(rgb(66, 66, 66), rgb(0, 0, 0));
+}
+
+.tab_panel_text {
+  font-size: 30px;
+}
+
+.tab_panel_box001 {
+  display: none;
+  color: #ffffff;
+}
+
+.tab_panel_box002 {
+  display: none;
+  color: #ffffff;
+}
+
+.tab_panel_box003 {
+  display: none;
+  color: #ffffff;
+}
+
+/* is-showがついている時のスタイル */
+.tab_panel_box.is_show {
+  display: block;
+}
+
+.subtitle {
+  font-size: 50px;
+}
