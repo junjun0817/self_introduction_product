@@ -6,15 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MatoiSugimori_page</title>
   <!-- スタイルシートを読み込む -->
+  <link rel="stylesheet" href="reset.css"><!--リセットcssを先に読み込む --> 
   <link rel="stylesheet" href="tab.css">
 </head>
 <body>
-  <h1 class="title">MATO_HOME</h1>
+  <h1 class="title js_text_anime">MATO_HOME</h1>
   <div class="cp_common" ></div>
   <!--プロフィール-->
-  <h2 class="unit_title">プロフィール</h2>
-  <div class="profile">
-    <h3 class="my_name">杉森_磨採衣</h3>
+  <h2 class="unit_title js_text_anime">プロフィール</h2>
+  <div class="profile ">
+    <h3 class="my_name js_text_anime">杉森_磨採衣</h3>
     <ul class="self_introduction_item">
       <li class="item">年齢:22歳</li>
       <li class="item">彼女:あり</li>
@@ -26,7 +27,7 @@
   </div>
   <div class="cp_common"></div>
   <!-- ゲーム紹介タブ -->
-  <h2 class="unit_title">どんなゲームやってるの？</h2>
+  <h2 class="unit_title js_text_anime">どんなゲームやってるの？</h2>
   <div class="tab">
     <ul class="tab_menu">
       <li class="tab_menu_item is_active" data-tab="01">Nintendo Switch</li>
@@ -34,63 +35,77 @@
       <li class="tab_menu_item" data-tab="03">Social Game</li>
     </ul>
     <div class="tab_panel">
-      <div class="tab_panel_box tab_panel_box001 is_show" data-panel="01">
-        <h3 class="subtitle">大乱闘スマッシュブラザーズSPECIAL</h3>
-        <ul class="tab_panel_text">
+      <div class="tab_panel_box tab_panel_box001 game_img01 is_show" data-panel="01">
+        <h3 class="subtitle js_text_anime">大乱闘スマッシュブラザーズSPECIAL</h3>
+        <ul class="tab_panel_text ">
           <li>プレイ時間:約3000時間</li>
           <p>任天堂スイッチのパーティーゲーム代表作といえばコレ！
-          <br>大人数で遊ぶゲームではありますが、個人として遊ぶのもアリ！
+          <br>パーティーゲームではありますが、個人として遊ぶのもアリ！
           <br>特に一対一の対戦では、プレイヤー同士の読み合いが面白い！
           <br>自分はガノンドロフを使っています！
           <br>全キャラクターの内弱いとされていますが、強いキャラに弱いキャラで勝つとより気持ちよく勝てるからです！
         </ul>
       </div>
-      <div class="tab_panel_box tab_panel_box002" data-panel="02">
+      <div class="tab_panel_box tab_panel_box002 game_img02" data-panel="02">
         <h3 class="subtitle">Minecraft</h3>
         <ul class="tab_panel_text">
           <li>プレイ時間:約1200時間</li>
-          <p>
-
+          <p>とにかく自由度が高く大人気作品のオープンワールドゲームです！
+          <br>ブロックで出来た世界の中で冒険をしたり、畑をしたりゲームの中で新しい人生を歩めます！
+          <br>大人数でモンスターを倒しに行ったりもでき、子供から大人まで楽しめる内容になっています！
           </p>
         </ul>
       </div>
-      <div class="tab_panel_box tab_panel_box003" data-panel="03">
+      <div class="tab_panel_box tab_panel_box003 game_img03" data-panel="03">
         <h3 class="subtitle">MARIOKART TOUR</h3>
         <ul class="tab_panel_text">
           <li>最近ハマってるゲームです！</li>
-          <p>
-
-          </p>
+          <p>マリオカートがスマホで気軽に遊べます！
+          <br>始めたばかりですが、画質が本当にキレイだと思います！ゲーム機の画質とほぼ変わりません！
+              そして、スーパーファミコンから3DSまでのコースも追加されており、幅広いです!
+          <br>ちょっとした待ち時間に出来るので、暇つぶしにもってこいのゲームです！</p>
         </ul>
       </div>
     </div>
   </div>
   <div class="cp_common"></div>
   <!--ラーメン紹介-->
-  <h2 class="unit_title">おすすめのラーメンは？</h2>
+  <h2 class="unit_title js_text_anime">おすすめのラーメンは？</h2>
   <div class="tab">
     <ul class="tab_menu">
-      <li class="tab_menu_item is_active" data-tab="01">神仙</li>
+      <li class="tab_menu_item is_active" data-tab="01">金澤神仙</li>
       <li class="tab_menu_item" data-tab="02">金澤吉宗</li>
       <li class="tab_menu_item" data-tab="03">こられん華</li>
     </ul>
     <div class="tab_panel">
-      <div class="tab_panel_box tab_panel_box001 is_show" data-panel="01">
-        <h3 class="subtitle">特製豚骨ラーメン</h3>
+      <div class="tab_panel_box tab_panel_box001 gourmet_img01 is_show" data-panel="01">
+        <h3 class="subtitle js_text_anime">焦がし黒豚骨ラーメン</h3>
         <ul class="tab_panel_text">
-          <li>細麵で自分はいつも海苔をトッピングして食べてます！</li>
+          <li>ニンニク焦がし香味油(黒マー油)は豚骨スープと相性抜群！</li>
+          <li>豚骨スープと細麺が良く絡みスルスルと食べてしまいます！</li>
+          <li>自分の好みのトッピングは「麺かため、味玉、海苔、替え玉」です！</li>
+          <li>石川県金沢市西念4-7-1</li>
+          <li>TEL/FAX 076-216-8815</li>
         </ul>
       </div>
-      <div class="tab_panel_box tab_panel_box002" data-panel="02">
+      <div class="tab_panel_box tab_panel_box002 gourmet_img02" data-panel="02">
         <h3 class="subtitle">鶏濃厚魚介どでか炙りチャーシュー麺</h3>
         <ul class="tab_panel_text">
-          <li>太麺で</li>
+          <li>どデカチャーシューと国産鶏のうまみを凝縮させ素材にこだわったスープ！</li>
+          <li>太麵と魚介系スープが日ごろの疲れを吹き飛ばしてくれます！</li>
+          <li>ご飯とお供に食べることをおすすめします！</li>
+          <li>石川県金沢市鞍月３丁目２７</li>
+          <li>TEL/FAX 076-266-3661</li>
         </ul>
       </div>
-      <div class="tab_panel_box tab_panel_box003" data-panel="03">
+      <div class="tab_panel_box tab_panel_box003 gourmet_img03" data-panel="03">
         <h3 class="subtitle">華ラーメン</h3>
         <ul class="tab_panel_text">
-          <li>太麵で</li>
+          <li>ふるさとの富山県で一番食べていた醤油ラーメンです！</li>
+          <li>分厚く大きなチャーシュー以外にデカい角煮が入っておりボリューミーです！</li>
+          <li>太麵で何より、スープが水のように飲めてしまいます！</li> 
+          <li>富山県富山市荒川新町４−１７</li>
+          <li>TEL/FAX 080-2958-4317</li>
         </ul>
       </div>
     </div>

@@ -1,9 +1,10 @@
 body {
-  /* background: radial-gradient(ellipse at center, rgba(255,255,255,0) 40%,rgba(255,255,255,0.5) 60%,rgba(255,255,255,1) 100%),url(images/0dc002fb57851000dcb7b11428ef6a1e.jpg); */
   background-image: url(images/carbon022-768x576.jpg);
   background-size: 20%;
   background-position: center;
   background-repeat: repeat;
+  margin: 0;
+  margin-top: 90px;
 }
 
 .unit_title {
@@ -16,6 +17,10 @@ body {
   margin-top: 30px;
 }
 
+.unit_title:hover {
+  color: rgb(99, 99, 99);
+}
+
 .cp_common {
   border-style: solid;
   border-color: rgb(255, 255, 255);
@@ -26,14 +31,12 @@ body {
 .title {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
   font-size: 150px;
   color: #ffffff;
 }
 
 .title:hover {
-  color: blue;
-  transition: 0.5s;
+  color: rgb(99, 99, 99);
 }
 
 .profile {
@@ -54,26 +57,6 @@ body {
   /* magin bottom など */
 }
 
-/* .unit_title_01 {
-  display: flex;
-  justify-content: center;
-  font-size: 70px; */
-  /* padding-bottom: 300px; */
-
-
-/* .unit_title_02 {
-  display: flex;
-  justify-content: center;
-  font-size: 70px;
-  color: #ffffff;
-}
-
-.unit_title_03 {
-  display: flex;
-  justify-content: center;
-  font-size: 70px;
-  color: #ffffff;
-} */
 
 .my_name {
   display: flex;
@@ -150,11 +133,17 @@ body {
   min-height: 620px;
   padding: 10px 30px;
   border-radius: 10px;
-  background: radial-gradient(rgb(66, 66, 66), rgb(0, 0, 0));
 }
 
 .tab_panel_text {
   font-size: 30px;
+  margin-top: 0px;
+  text-shadow: 5px 1px 2px rgb(2, 2, 2), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+  background-color: rgba(255,255,255,0.4);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .tab_panel_box001 {
@@ -172,6 +161,53 @@ body {
   color: #ffffff;
 }
 
+.game_img01 {
+  background: url(images/スクリーンショット\ 2023-11-07\ 204958.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(0, 0, 0);
+  background-position: 0px 80px ;
+}
+
+.game_img02 {
+  background: url(images/スクリーンショット\ 2023-11-07\ 204823.png);
+  background-repeat: no-repeat;
+  background-size: 109%;
+  background-color: rgb(0, 0, 0);
+}
+
+.game_img03 {
+  background: url(images/maxresdefault.png);
+  background-repeat: no-repeat;
+  background-size: 79%;
+  background-color: rgb(0, 0, 0);
+  background-position: 254px 227px ;
+}
+
+.gourmet_img01 {
+  background: url(images/S__20529167_0.png), url(images/640x640_rect_116047180.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 47%, 60%;
+  background-color: black;
+  background-position: 617px 285px, 0px 238px;
+}
+
+.gourmet_img02 {
+  background: url(images/dodeka_nboshi_900.png), url(images/A00000114.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 52%, 60%;
+  background-color: black;
+  background-position: 580px 170px, -38px 247px;
+}
+
+.gourmet_img03 {
+  background: url(images/S__20529167_0.png), url(images/640x640_rect_160432786.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 75%, 48%;
+  background-color: black;
+  background-position: 445px 42px, 0px 348px;
+}
+
 /* is-showがついている時のスタイル */
 .tab_panel_box.is_show {
   display: block;
@@ -179,4 +215,13 @@ body {
 
 .subtitle {
   font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+/*アニメーション*/
+
+.js_text_anime span {
+  opacity: 0;
+  transition: 1.5s;
 }
