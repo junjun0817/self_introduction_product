@@ -71,12 +71,21 @@ body {
 .self_introduction_item {
   margin-top: 60px;
   color: black;
-  font-size: 34px;
+  font-size: 27px;
   margin-left: 95px;
+  font-weight: bold;
 }
 
 .item{
   margin-bottom: 10px;
+}
+
+.first_li {
+  list-style-type: disc;
+}
+
+.position_li {
+  padding-left: 50px;
 }
 
 .tab {
@@ -101,9 +110,11 @@ body {
 
 .tab_menu_item {
   list-style: none;
-  width: 200px;
+  width: 270px;
   padding: 20px 55px; /* メニューに高さを付ける */
   text-align: center;
+  display: flex;
+  justify-content: center;
   margin-right: 6px;
   background-color: #ffffff;
   border-top-left-radius: 10px;
@@ -120,7 +131,7 @@ body {
 .tab_menu_item.is_active {
   background-color: rgb(0, 0, 0);
   color: #ffffff;
-  padding: 30px 55px;
+  padding: 30px 135px;
 }
 
 /* タブパネル */
