@@ -21,71 +21,86 @@ body {
   color: rgb(99, 99, 99);
 }
 
-.cp_common {
-  border-style: solid;
-  border-color: rgb(255, 255, 255);
-  border-width: 20px 0 0 0;
-  /* margin-bottom: 190px; */
+.subtitle {
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
-.title {
+/*アニメーション*/
+
+.js_text_anime span {
+  opacity: 0;
+  transition: 1.5s;
+}
+
+
+#title {
   display: flex;
   justify-content: center;
   font-size: 150px;
   color: #ffffff;
 }
 
-.title:hover {
+#title:hover {
   color: rgb(99, 99, 99);
 }
 
-.profile {
-  color: #ffffff;
-  font-size: 20px;
-  background-image: url(images/kuchikomi819_TP_V.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  height: 780px;
-  width: 1200px;
-  background-size: 100%;
+.cp_common {
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 20px 0 0 0;
+}
+
+.nav_menu {
+  height: 70px;
+  padding: 1px 0px;
+  width: 1203px;
   margin: 0 auto;
-  margin-bottom: 130px;
-  /* magin bottom など */
+  border-top: 3px solid #333;
 }
 
-
-.my_name {
+.navbar {
   display: flex;
-  justify-content: center;
-  color: black;
-  font-size: 88px;
-  margin-right: 470px;
-  margin-top: 0px;
-  padding-top: 120px;
+  text-align: center;
+  margin-top: 0;
+  padding-left: 0;
 }
 
-.self_introduction_item {
-  margin-top: 60px;
+.navbar li {
+  margin: 0;
+}
+
+.navbar li a {
+  display: block;
+  padding: 20px 68px;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all  0.3s ease;
+}
+
+.navbar li a:hover {
+  background-color :#aeaeae;
+}
+
+.nav_item {
+  display: flex;
+}
+
+#begining {
+  border-bottom-left-radius: 10px;
+}
+
+#end {
+  border-bottom-right-radius: 10px;
+}
+
+a {
+  text-decoration: none;
   color: black;
-  font-size: 27px;
-  margin-left: 95px;
   font-weight: bold;
-}
-
-.item{
-  margin-bottom: 10px;
-}
-
-.first_li {
-  list-style-type: disc;
-}
-
-.position_li {
-  padding-left: 50px;
 }
 
 .tab {
@@ -172,67 +187,7 @@ body {
   color: #ffffff;
 }
 
-.game_img01 {
-  background: url(images/スクリーンショット\ 2023-11-07\ 204958.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: rgb(0, 0, 0);
-  background-position: 0px 80px ;
-}
-
-.game_img02 {
-  background: url(images/スクリーンショット\ 2023-11-07\ 204823.png);
-  background-repeat: no-repeat;
-  background-size: 109%;
-  background-color: rgb(0, 0, 0);
-}
-
-.game_img03 {
-  background: url(images/maxresdefault.png);
-  background-repeat: no-repeat;
-  background-size: 79%;
-  background-color: rgb(0, 0, 0);
-  background-position: 254px 227px ;
-}
-
-.gourmet_img01 {
-  background: url(images/S__20529167_0.png), url(images/640x640_rect_116047180.png);
-  background-repeat: no-repeat, no-repeat;
-  background-size: 47%, 60%;
-  background-color: black;
-  background-position: 617px 285px, 0px 238px;
-}
-
-.gourmet_img02 {
-  background: url(images/dodeka_nboshi_900.png), url(images/A00000114.png);
-  background-repeat: no-repeat, no-repeat;
-  background-size: 52%, 60%;
-  background-color: black;
-  background-position: 580px 170px, -38px 247px;
-}
-
-.gourmet_img03 {
-  background: url(images/S__20529167_0.png), url(images/640x640_rect_160432786.png);
-  background-repeat: no-repeat, no-repeat;
-  background-size: 75%, 48%;
-  background-color: black;
-  background-position: 445px 42px, 0px 348px;
-}
-
 /* is-showがついている時のスタイル */
 .tab_panel_box.is_show {
   display: block;
-}
-
-.subtitle {
-  font-size: 50px;
-  margin-bottom: 0px;
-  margin-top: 10px;
-}
-
-/*アニメーション*/
-
-.js_text_anime span {
-  opacity: 0;
-  transition: 1.5s;
 }

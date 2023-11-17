@@ -1,0 +1,24 @@
+.gourmet_img01 {
+    background: url(images/S__20529167_0.png), url(images/640x640_rect_116047180.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 80%, 60%;
+    background-color: black;
+    background-position: 470px 0px, 0px 238px;
+  }
+  
+  .gourmet_img02 {
+    background: url(images/dodeka_nboshi_900.png), url(images/A00000114.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 65%, 60%;
+    background-color: black;
+    background-position: 510px 10px, -38px 247px;
+  }
+  
+  .gourmet_img03 {
+    background: url(images/S__11280406_0.png), url(images/640x640_rect_160432786.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 75%, 48%;
+    background-color: black;
+    background-position: 445px 42px, 0px 348px;
+  }
+  
