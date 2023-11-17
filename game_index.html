@@ -8,28 +8,30 @@
   <!-- スタイルシートを読み込む -->
   <link rel="stylesheet" href="reset.css"><!--リセットcssを先に読み込む --> 
   <link rel="stylesheet" href="tab.css">
+  <link rel="stylesheet" href="game_index.css">
 </head>
 <body>
   <header>
-    <h1 class="title js_text_anime">MATO_HOME</h1>
+    <h1 id="title" class="js_text_anime">MATO_HOME</h1>
     <div class="cp_common" ></div>
+    <nav class="nav_menu" role="navigation">
+      <ul class="navbar">
+        <li class="nav_item">
+          <a id="begining" href="file:///d%3A/practice_code/I%20am_product/I%20am/profile_index.html" itemprop="name">プロフィール</a></li>
+        <li class="nav_item">
+          <a href="file:///d%3A/practice_code/I%20am_product/I%20am/former_job_index.html" itemprop="name">前職</a></li>
+        <li class="nav_item">
+          <a href="file:///d%3A/practice_code/I%20am_product/I%20am/web_index.html" itemprop="name">WEB技術</a></li>
+        <li class="nav_item">
+          <a href="file:///d%3A/practice_code/I%20am_product/I%20am/video_creation_index.html" itemprop="name">動画制作</a></li>
+        <li class="nav_item">
+          <a href="file:///d%3A/practice_code/I%20am_product/I%20am/game_index.html" itemprop="name">ゲーム</a></li>
+        <li class="nav_item">
+          <a id="end" href="file:///d%3A/practice_code/I%20am_product/I%20am/ramen_index.html" itemprop="name">ラーメン</a></li>
+      </ul>
+    </nav>
   </header>
-  <!--プロフィール-->
-  <h2 class="unit_title js_text_anime">プロフィール</h2>
-  <div class="profile ">
-    <h3 class="my_name js_text_anime">杉森_磨採衣</h3>
-    <ul class="self_introduction_item">
-      <li class="item first_li">年齢:22歳</li>
-      <li class="item first_li">彼女:あり</li>
-      <li class="item first_li">身長:183cm</li>
-      <li class="item first_li">学歴:新卒→製造業３年</li>
-      <li class="item first_li">触れるWEB技術:</li>
-      <li class="item position_li">HTMl,CSS,Javascript</li>
-      <li class="item first_li">趣味:ゲーム</li>
-      <li class="item first_li">好きな食べ物:ラーメン</li>
-    </ul>
-  </div>
-  <div class="cp_common"></div>
+
   <!-- ゲーム紹介タブ -->
   <h2 class="unit_title js_text_anime">どんなゲームやってるの？</h2>
   <div class="tab">
@@ -72,50 +74,7 @@
     </div>
   </div>
   <div class="cp_common"></div>
-  <!--ラーメン紹介-->
-  <h2 class="unit_title js_text_anime">おすすめのラーメンは？</h2>
-  <div class="tab">
-    <ul class="tab_menu">
-      <li class="tab_menu_item is_active" data-tab="01">金澤神仙</li>
-      <li class="tab_menu_item" data-tab="02">金澤吉宗</li>
-      <li class="tab_menu_item" data-tab="03">こられん華</li>
-    </ul>
-    <div class="tab_panel">
-      <div class="tab_panel_box tab_panel_box001 gourmet_img01 is_show" data-panel="01">
-        <h3 class="subtitle js_text_anime">焦がし黒豚骨ラーメン</h3>
-        <ul class="tab_panel_text">
-          <li class="first_li">ニンニク焦がし香味油(黒マー油)は豚骨スープと相性抜群！</li>
-          <li>豚骨スープと細麺が良く絡みスルスルと食べてしまいます！</li>
-          <li>自分の好みのトッピングは「麺かため、味玉、海苔、替え玉」です！</li>
-          <li>石川県金沢市西念4-7-1</li>
-          <li>TEL/FAX 076-216-8815</li>
-        </ul>
-      </div>
-      <div class="tab_panel_box tab_panel_box002 gourmet_img02" data-panel="02">
-        <h3 class="subtitle">鶏濃厚魚介どでか炙りチャーシュー麺</h3>
-        <ul class="tab_panel_text">
-          <li class="first_li">どデカチャーシューと国産鶏のうまみを凝縮させ素材にこだわったスープ！</li>
-          <li>太麵と魚介系スープが日ごろの疲れを吹き飛ばしてくれます！</li>
-          <li>ご飯とお供に食べることをおすすめします！</li>
-          <li>石川県金沢市鞍月３丁目２７</li>
-          <li>TEL/FAX 076-266-3661</li>
-        </ul>
-      </div>
-      <div class="tab_panel_box tab_panel_box003 gourmet_img03" data-panel="03">
-        <h3 class="subtitle">華ラーメン</h3>
-        <ul class="tab_panel_text">
-          <li class="first_li">ふるさとの富山県で一番食べていた醤油ラーメンです！</li>
-          <li>分厚く大きなチャーシュー以外にデカい角煮が入っておりボリューミーです！</li>
-          <li>太麵で何より、スープが水のように飲めてしまいます！</li> 
-          <li>富山県富山市荒川新町４−１７</li>
-          <li>TEL/FAX 080-2958-4317</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
+  
   <!-- スクリプトを読み込む -->
   <script src="tab.js"></script>
 </body>
-</html>
