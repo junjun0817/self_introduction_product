@@ -13,7 +13,6 @@
     background-size: 100%;
     margin: 0 auto;
     margin-bottom: 130px;
-    /* magin bottom など */
 }
 
 
@@ -31,7 +30,7 @@
 .web_item {
     margin-top: 60px;
     color: rgb(255, 255, 255);
-    font-size: 26px;
+    font-size: 24px;
     margin-left: 0px;
     font-weight: bold;
     background-color: rgba(255,255,255,0.4);
