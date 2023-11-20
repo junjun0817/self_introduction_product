@@ -1,0 +1,61 @@
+.former_job {
+    color: #ffffff;
+    font-size: 20px;
+    background-image: url(images/former_job.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 780px;
+    width: 1200px;
+    background-size: 100%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    text-shadow: 5px 1px 2px rgb(2, 2, 2), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+}
+
+
+.job_title {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    margin-left: 470px;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+.former_job_item {
+    color: rgb(255, 255, 255);
+    margin-left: 0px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-bottom: 19px;
+}
+
+.former_job_item_box {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.former_job_subtitle {
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+.learning {
+    padding-left: 200px;
+}
+
+.now {
+    padding-left: 224px;
+}
+
+.item{
+    font-size: 23px;
+    list-style: disc;
+}
