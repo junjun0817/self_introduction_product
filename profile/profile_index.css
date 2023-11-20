@@ -4,16 +4,12 @@
     background-image: url(images/profile.webp);
     background-position: center;
     background-repeat: no-repeat;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     height: 780px;
     width: 1200px;
     background-size: 100%;
     margin: 0 auto;
     margin-bottom: 130px;
-    /* magin bottom など */
 }
 
 
@@ -37,12 +33,12 @@
 
 .item{
     margin-bottom: 10px;
-  }
+}
   
-  .first_li {
+.first_li {
     list-style-type: disc;
-  }
+}
   
-  .position_li {
+.position_li {
     padding-left: 50px;
-  }
+}
