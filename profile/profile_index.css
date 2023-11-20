@@ -4,23 +4,16 @@
     background-image: url(images/profile.webp);
     background-position: center;
     background-repeat: no-repeat;
-<<<<<<< HEAD
     border-radius: 10px;
-=======
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
->>>>>>> e653add2f4c29e21b9acb6da70d0845265c6d4f1
     height: 780px;
     width: 1200px;
     background-size: 100%;
     margin: 0 auto;
     margin-bottom: 130px;
-<<<<<<< HEAD
-=======
-    /* magin bottom など */
->>>>>>> e653add2f4c29e21b9acb6da70d0845265c6d4f1
 }
 
 
@@ -44,7 +37,6 @@
 
 .item{
     margin-bottom: 10px;
-<<<<<<< HEAD
 }
   
 .first_li {
@@ -54,8 +46,6 @@
 .position_li {
     padding-left: 50px;
 }
-=======
-  }
   
   .first_li {
     list-style-type: disc;
@@ -64,4 +54,3 @@
   .position_li {
     padding-left: 50px;
   }
->>>>>>> e653add2f4c29e21b9acb6da70d0845265c6d4f1
